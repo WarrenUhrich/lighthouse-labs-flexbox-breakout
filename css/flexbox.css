@@ -1,0 +1,52 @@
+* {
+    color: #eee;
+    background: #333;
+}
+
+/**
+ * Horizontal Navigation Example:
+ */
+
+#nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.nav-list-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background: #eee;
+    padding: 16px 32px;
+}
+
+.nav-list-item a:hover,
+.nav-list-item a:focus,
+.nav-list-item a:active {
+    background: #999;   
+}
+
+/**
+ * Programming List Boxes Example:
+ */
+
+#programming-languages-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.programming-languages-list-item {
+    box-sizing: border-box;
+    width: calc((100% / 4) - 64px);
+    color: #333;
+    text-align: center;
+    background: lightskyblue;
+    padding: 32px;
+    margin: 32px;
+}

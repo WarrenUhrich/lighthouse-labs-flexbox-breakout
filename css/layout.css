@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body > * {
+    padding: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    background: yellow;
+    width: 100%;
+    height: 200px;
+}
+
+nav {
+    background: purple;
+    width: 100%;
+}
+
+section {
+    width: calc(100% / 3);
+    height: 100px;
+}
+
+section:first-of-type {
+    background: green;
+}
+
+section:nth-of-type(2) {
+    background: blue;
+}
+
+section:nth-of-type(3) {
+    background: red;
+}
+
+article {
+    width: 50%;
+    height: 120px;
+}
+
+article:first-of-type {
+    background: purple;
+}
+
+article:nth-of-type(2) {
+    background: yellow;
+}
+
+footer {
+    background: green;
+    width: 100%;
+}

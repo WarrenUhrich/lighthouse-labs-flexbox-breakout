@@ -1,0 +1,28 @@
+html, body {
+    background-color: salmon;
+}
+
+
+#grid-list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 16px; /* applies to all sides */
+}
+
+.grid-list-item {
+    box-sizing: border-box;
+    background-color: white;
+    
+    width: 180px;
+    height: 180px;
+
+    padding: 8px;
+    border-radius: 16px;
+
+    margin-bottom: 16px;
+}

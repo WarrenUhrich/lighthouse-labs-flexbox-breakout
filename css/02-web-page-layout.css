@@ -1,0 +1,28 @@
+#logo { order: 1; background: yellow; margin: 0; height: 32px; }
+#hero { order: 2; background: lightcoral; }
+#about-us { order: 4; background: lightgreen; }
+#contact-us { order: 3; background: lightseagreen; }
+#subscribe { order: 5; background: lightslategrey; }
+#service-1 { order: 6; background: lightblue; }
+#service-2 { order: 7; background: lightcoral; }
+#service-3 { order: 8; background: lightseagreen; }
+#footer { order: 9; background: lightgoldenrodyellow; }
+
+body > * {
+    width: 100%;
+    height: 200px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.one-third-width {
+    width: calc(100% / 3);
+}
